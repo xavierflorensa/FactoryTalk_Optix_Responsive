@@ -352,6 +352,14 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Session}/IsWeb"
 - File: Screens/Screens.yaml
 - File: Panels/Panels.yaml
 - Name: WebPresentationEngine
